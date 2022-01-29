@@ -1,10 +1,15 @@
+server:
+  port: 7900
+
+
 eureka:
   client:
-    #ÊÇ·ñ½«×Ô¼º×¢²áµ½Eureka Server,Ä¬ÈÏÎªtrue£¬ÓÉÓÚµ±Ç°¾ÍÊÇserver£¬¹Ê¶øÉèÖÃ³Éfalse£¬±íÃ÷¸Ã·şÎñ²»»áÏòeureka×¢²á×Ô¼ºµÄĞÅÏ¢
+    #æ˜¯å¦å°†è‡ªå·±æ³¨å†Œåˆ°Eureka Server,é»˜è®¤ä¸ºtrueï¼Œç”±äºå½“å‰å°±æ˜¯serverï¼Œæ•…è€Œè®¾ç½®æˆfalseï¼Œè¡¨æ˜è¯¥æœåŠ¡ä¸ä¼šå‘eurekaæ³¨å†Œè‡ªå·±çš„ä¿¡æ¯
     register-with-eureka: false
-    #ÊÇ·ñ´Óeureka server»ñÈ¡×¢²áĞÅÏ¢£¬ÓÉÓÚµ¥½Úµã£¬²»ĞèÒªÍ¬²½ÆäËû½ÚµãÊı¾İ£¬ÓÃfalse
+    #æ˜¯å¦ä»eureka serverè·å–æ³¨å†Œä¿¡æ¯ï¼Œç”±äºå•èŠ‚ç‚¹ï¼Œä¸éœ€è¦åŒæ­¥å…¶ä»–èŠ‚ç‚¹æ•°æ®ï¼Œç”¨false
     fetch-registry: false
-    #ÉèÖÃ·şÎñ×¢²áÖĞĞÄµÄURL£¬ÓÃÓÚclientºÍserver¶Ë½»Á÷
+    #è®¾ç½®æœåŠ¡æ³¨å†Œä¸­å¿ƒçš„URLï¼Œç”¨äºclientå’Œserverç«¯äº¤æµ
     service-url:
       defaultZone: http://localhost:7900/eureka/
+
 
